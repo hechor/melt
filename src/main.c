@@ -79,7 +79,7 @@ unsigned char code MusicScore[][2] = {	//乐谱
 	{stop, 3}, {d1, 1}, {d6, 1}, {d5, 1}, {d1, 1},
 };
 
-unsigned char p = 0;	//控制演奏指针，每隔指定拍数后移
+unsigned int p = 0;	//控制演奏指针，每隔指定拍数后移
 
 void main()
 {
